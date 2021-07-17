@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .progress{
+            margin: 300px auto;
+        }
+        .progress img{
+            width: 90px;
+           
+        }
+        ul{
+            text-align: center;
+        }
+        ul li{
+            display: inline-block;
+            width: 200px;
+            font-size: 20px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        ul li .fa{
+            background-color:rgb(70, 240, 3);
+            border-radius: 40px;
+        }
+        ul li .fa::after{
+            content:'';
+            height: 5px;
+            width: 172px;
+            display: block;
+            position: relative;
+            bottom:10px;
+            left:26px;
+            background:rgb(16, 199, 16);
+        }
+        ul li:nth-child(2) .fa::after{
+            background:rgba(0, 152, 253, 0.842);
+
+        }
+        ul li:nth-child(3) .fa::after{
+            background:transparent;
+
+        }
+        img:hover .text {
+            visibility:visible;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="progress">
+    <ul>
+        <li>
+            <img src="assets/schl.png"><span class="text" style="visibility: hidden;">GRD PUBLIC SCHOOL, Coimbatore</span><br>
+            <i class="fa fa-check" style="color:white;width: 20px;height: 18px;padding: 7px;"></i>
+            <p >Secondary Education</p>
+        </li>
+        <li>
+            <img src="assets/inter.png" ><span class="text" style="visibility: hidden;">GRD PUBLIC SCHOOL, Coimbatore</span><br>
+            <i class="fa fa-check" style="color:white;width: 20px;height: 18px;padding: 7px;margin-top: 12px;"></i>
+            <p>Higher Secondary Education</p>
+    
+            
+        </li>
+        <li>
+            
+            <img src="assets/college.png"><span class="text" style="visibility: hidden;">GRD PUBLIC SCHOOL, Coimbatore</span><br>
+            <i class="fa fa-refresh" style="background-color:rgba(0, 152, 253, 0.842);color:white;width: 20px;height: 18px;padding: 7px;margin-top:15px;position: relative;bottom:24px"></i>
+            <p style="position: relative;top: -20px;">UnderGraduation</p>
+            
+        </li>
+    </ul>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>JUNIOUS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Noto+Sans|Fira+Mono&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Fira+Mono&display=swap" media="print"
+        onload="this.media='all'" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Fira+Mono&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <style>
+        .progress {
+            margin: 300px auto;
+        }
+
+        .progress img {
+            width: 90px;
+
+        }
+
+        ul {
+            text-align: center;
+        }
+
+        ul li {
+            display: inline-block;
+            width: 200px;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        ul li .fa {
+            background-color: rgb(70, 240, 3);
+            border-radius: 40px;
+        }
+
+        ul li .fa::after {
+            content: '';
+            height: 5px;
+            width: 172px;
+            display: block;
+            position: relative;
+            bottom: 10px;
+            left: 26px;
+            background: rgb(16, 199, 16);
+        }
+
+        ul li:nth-child(2) .fa::after {
+            background: rgba(0, 152, 253, 0.842);
+
+        }
+
+        ul li:nth-child(3) .fa::after {
+            background: transparent;
+
+        }
+
+        img:hover .text {
+            visibility: visible;
+        }
+    </style>
+
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Fira+Mono&display=swap" />
+    </noscript>
+</head>
+
+<body>
+    <div class="nav" id="nav">
+        <div class="navbar">
+            <a href="/"><img src="assets/logo-md.png" class="logo" alt="AW logo"></a>
+            <div id="menu-icon" class="menu-icon">
+                <span></span>
+            </div>
+            <ul class="nav-items" id="nav-items">
+                <li class="item" id="home-nav-label"><a href="#home">Home</a></li>
+                <li class="item"><a href="#projects">Projects</a></li>
+                <li class="item"><a href="#photos">Photos</a></li>
+                <li class="item"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="page" id="home">
+        <div class="page-container">
+            <div class="typewriter">
+                <h1><a href="/">Junaid.Resume()</a></h1>
+            </div>
+            <div class="short-bio">
+                <p>Hy ! there I'm Mohammed Junaid,pursuing Computer Science Undergraduation </p>
+                <p>Fond of developing Mobile Apps and Websites.<br>Very curious to learn every language, framework that works for me <br> I'm a very fast learner of programming languages,checkout  <a href="#projects">projects</a> portfolio.</p>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mohammed-junaid-32a2561aa/" aria-label="LinkedIn">
+                    <img src="./img/linkedin.svg" class="socials button" alt="LinkedIn Profile">
+                </a>
+                <a href="https://github.com/MdJunaidAhmed16" aria-label="GitHub">
+                    <img src="./img/github.svg" class="socials button" alt="GitHub Profile">
+                </a>
+            </div>
+
+            <div class="about">
+                <div class="terminal-header">
+                    <div class="title">Junaid.exe</div>
+                    <div class="right-side-buttons">
+
+                        <div class="fas fa-window-close"
+                            style="background-color: rgb(21, 206, 21);border-radius: 20px;position: relative;width: 23px;height: 23px;padding: 2px;">
+                        </div>
+                        <div class="fas fa-window-close"
+                            style="background-color: orange;border-radius: 20px;position: relative;width: 23px;height: 23px;padding: 2px;">
+                        </div>
+                        <div class="fas fa-window-close"
+                            style="background-color: red;border-radius: 20px;position: relative;width: 23px;height: 23px;padding: 2px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="terminal-window">
+                    <div class="statement" id="top">
+                        <p class="input">Junaid.secondaryeducation("2016-2017")</p>
+                        <p class="return">GRD Public School,Coimbatore</p>
+                    </div>
+                    <div class="statement">
+                        <p class="input">Junaid.highersecondaryeducation("2017-2019")</p>
+                        <p class="return">Narayana Junior College,Vijayawada</p>
+                    </div>
+                    <div class="statement">
+                        <p class="input">Junaid.undergraduation("2019-pursuing")</p>
+                        <p class="return">B.Tech in Computer Science-VR Siddhartha Engineering College ,Vijaywada</p>
+                    </div>
+                    <div class="statement">
+                        <p class="input">Junaid.certificates()</p>
+                        <p class="return"><a href="#">Python For EveryBody Specialization</a></p>
+                        <p class="return"><a href="#">Web Design for Everybody: Basics of Web Development & Coding Specialization</a></p>
+                        <p class="return"><a href="#">Google IT Support Professional Certificate</a></p>
+                        <p class="return"><a href="#">AI For Everyone</a></p>
+                    </div>
+                    <div class="statement">
+                        <p class="input">Junaid.languages()</p>
+                        <p class="return">[Flutter, Python, HTML5, CSS, C++, Java, Javascript, C]</p>
+                    </div>
+                    <div class="statement">
+                        <p class="input">Junaid.contact()</p>
+                        <p class="return"><a href="mohammedjunaidah@gmail.com">mohammedjunaidah</a></p>
+                    </div>
+                    <div class="statement">
+                        <p class="input">Junaid.resume()</p>
+                        <p class="return"><a href="assets/MOHAMMED JUNAID.pdf">Mohammed Junaid.pdf</a></p>
+                    </div>
+                    <div class="statement">
+                        <p class="input">Junaid.languages()</p>
+                        <p class="return">[English, Urdu, Hindi, Telugu, Tamil]</p>
+                    </div>
+                    <div class="statement" id="bottom">
+                        <p class="input"><span>&nbsp;</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title" id="projects">
+                <h2>> Projects</h2>
+                <p class="quote">"Typing the code ain't a hard thing, than building real-time solutions is"</p>
+                <div class="project-card">
+                    <h3 class="project-title">Instagram Clone</h3>
+                    <p class="project-description">This project is Instagram clone built using Flutter Framework.Users can add there own 
+                        reels or videos basically they can use this instagram clone as a video player as well as a wallpaper app<br><br>
+                        <em>More Features to come</em>
+                    </p>
+                    <div class="project-skills">
+                        <span class="project-skill">Flutter</span>
+                        <span class="project-skill">Dart</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/MdJunaidAhmed16" class="link button">
+                            <i class="fab fa-github"></i> Source</a>
+                        <a href="#"
+                            class="link button">
+                            <i class="fab fa-dev"></i> Blog Post
+                        </a>
+                    </div>
+                </div>
+               
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
